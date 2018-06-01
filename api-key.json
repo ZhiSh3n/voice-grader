@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "voice-grader",
+  "private_key_id": "6c0558f8e75897009cd1eae5a34670543acba35b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOEMCxA2OFjxjC\nHkEf5SgVZ2uNj54a/pwiUrRpGDlwid8jw91MFHgU13+6tQX3uYwCyJMnvQ4xPQVW\niuotvHsgkEBEQl4ATxjuN1hl32aAm4HLCDvXYhpQUXzOjT9qXfj9L0tKwdYlRocW\n+Vo2wrGtTg2cnvyo23GxADZD2SjP2TT6WdaHeohABbx1v+ugHEflCpyN92HmWj0E\nVL+/GDFDEtXaV3P8ue6n3cb+jIUkisFWKGwvpGc3uPPmr1bv3DtOdpjH/0rmpdFv\ngE9wNi8ay51zBWPrcdeT59IvrLNE8QivVAsVLgBsA82jQNKpsS0nO9j+NAHedE08\nsHjw3sQhAgMBAAECggEALpvkccVh89ovj+y270duXxUC40SaTuHLIApT6zeC+nz8\n30KUofo5RQGPTwRWArfRvuluO31MIf/63p3SJSEuOmnWV3opd+lsKqmTEYvLzAgg\nffNxUaDLceJUmAWj0+PIhz/0yEZ6sPi4Yo5pBNzZwmjWtFfTrz/fgdkZ7RPH4ucG\n4SCZoIGsNfEaPwUh/oskylr9E34XLxn1jhsIvreirbwX1DV0CmapZOGkvShPsrxi\nO4IyEdSbk3GXQKFnxMEfTCnQ2Kfk6ueYw7zXtft/11JlXwEM13xDVNLgGLWho6+Q\nGAjx499JjBBhPKXQogVCb6yrKTeNY0vQlzW4I13GaQKBgQDrbIWqjzRAubQMzaSs\nsZ8XXu8k7qCPlPyYFefub+lBLWwjmNVu61R6Zk4Kox2dL2SW/UlZjSgg/gikHIky\ni/5KtIEpWUk18jnFXfpyCujcp0BM8kTAkCdTe5kuTiSH8V1tsBG5X/Iqz0ECOJDn\nV03l7b/jxj+jYwqvHOKRIzZSNQKBgQDgE1nnwIFCym9IkhbkwP9u5N70bqBnyz7X\nOo7KQA6X2KzX4blq0OGVu6ZzxETmTIQWkzOdudBhVpHYH3NoyOFd9TyYe8NccmfS\nXTBjco/Jyg21E2an9VqUhGDlUt7DVJeOMJb8bH+jKTWd5smhFNtqtxyzOUWjqMBJ\n2v7rhgYnvQKBgQDkPyPct9huRF0m6J2WfOMEcpsi0GREsKqw/NQPXNrlwRcN8BhF\n4MzXmqZhM8H7aj55EPpzYyKb0g8opS3zHr0dSqHLJ/CN59lQ3At7U85uV41EzMIR\ne/FUxAlAVqyeTElLlh+o/Te5f5TEhXkfgYpZuMaJG+UJEHYETtnu4xfAXQKBgQCZ\ngKg2e0oR11wk+u90BkL2VRPnn2GDuVhzWUo4g2l73JOL0LaU1kOzr7l31RzeJ8zV\nKkJR6tk11XhT9je5sOOy2i2IyEAtNLKrCev8NJ8MPb7mLURGC27iD03Ry9OPPIQW\nhHLquek2fSSd51x5XTBzCr4+iR2L4C7aaYv5DPdqgQKBgDqHWZDdLAeSY9ARU0vP\nazzmzXaHdz3x73TmmATF3iBG1PTwSpGYCqllMf+UrO1JV5Vd3jUjRNudJhApFpV8\nUZvCLwgAfqMH2aA/0Mhu24weYeR6IAWvMdMR05EuuznHtRURzV8wcBub6OfoMH9h\nuwP0r64BVMURdiQpmTvMdQ9b\n-----END PRIVATE KEY-----\n",
+  "client_email": "voice-grader-account@voice-grader.iam.gserviceaccount.com",
+  "client_id": "103398570467783943578",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/voice-grader-account%40voice-grader.iam.gserviceaccount.com"
+}
