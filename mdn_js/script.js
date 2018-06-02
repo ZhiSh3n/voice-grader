@@ -9,10 +9,10 @@ var recognition = new SpeechRecognition();
 var speechRecognitionList = new SpeechGrammarList();
 speechRecognitionList.addFromString(grammar, 1);
 recognition.grammars = speechRecognitionList;
-//recognition.continuous = false;
+//recognition.continuous = true;
 recognition.lang = 'en-US';
-recognition.interimResults = false;
-recognition.maxAlternatives = 1;
+recognition.interimResults = true;
+recognition.maxAlternatives = 3; // TODO
 
 var diagnostic = document.querySelector('.output');
 var bg = document.querySelector('html');
@@ -40,6 +40,7 @@ recognition.onresult = function(event) {
   // The [0] returns the SpeechRecognitionAlternative at position 0.
   // We then return the transcript property of the SpeechRecognitionAlternative object
 
+  console.log(event.results);
   var last = event.results.length - 1;
   var color = event.results[last][0].transcript;
 
