@@ -4,7 +4,7 @@ var SpeechRecognitionEvent = SpeechRecognitionEvent || webkitSpeechRecognitionEv
 
 var synth = window.speechSynthesis;
 var phraseList = [ // TODO should ask the user
-  "the horse is very large",
+  "this does not require any further maintenance, for Bernard ensures it is operational",
   "the giraffe is very tall",
   "the lion roars",
   "the cat and dog are friends"
