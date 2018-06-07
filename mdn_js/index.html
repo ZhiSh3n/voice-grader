@@ -97,8 +97,42 @@
         </div>
       </div>
     </div>
+
+
+
+    <form id="RequestForm">
+    	<p>Set the request values and send the request.</p>
+    	<label for="Method">Method
+    			<select name="Method">
+    			<option value="POST" >POST</option>
+    			<option value="PUT">PUT</option>
+    			<option value="DELETE" >DELETE</option>
+    			<option value="GET">GET</option>
+    			<option value="HEAD">HEAD</option>
+    			<option value="TRACE">TRACE</option>
+    			</select>
+    	</label>
+    	<label for="RequestURI">URI <input id="URI" type="text" size="104" value="https://stream.watsonplatform.net/speech-to-text/api/v1/recognize"> </label>
+    	<br>
+            <label for="RequestData">Data <small>(JSON)</small><br>
+            <textarea rows="15" cols="100" id="RequestData">{
+       "part_content_type": "audio/flac",
+       "action": "recognize"
+    }</textarea>
+            </label>
+            <br>
+                <p>
+                Audio File(s):  <input name="filesToUpload[]" id="filesToUpload" type="file" multiple="" size=80/>
+                </p>
+                <button type="button" id=submitMultiPartBtn>Submit JSON Data and files with content-type multipart/form-data</button>
+                <small>Note: not all browsers support this. See <a href="http://caniuse.com/xhr2">here</a> if yours does.</small>
+
+    </form>
+
+
+
+
     <!-- voice grader js -->
-    <script src="myscript.js"></script>
     <script src="script.js"></script>
     <!-- bootstrap js code -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
